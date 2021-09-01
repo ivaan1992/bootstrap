@@ -157,21 +157,24 @@
     
 </div>
 
-
-
-
-
-
 </section>
-<footer>
+<footer class="text-center">
     <h2>Let's chat</h2>
     <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-<form>
-    <input type="text" id="name" placeholder="Jeremy" required>
-    <input type="text" id="last-name" placeholder="Last Name" required>
-    <input type="email" id="mail" placeholder="Email Address" required>
-    <textarea placeholder="Write your message here" required></textarea>
+
+    <form method="POST" action="" class="container gap-3 ">
+        <div class="row justify-content-md-center">
+    <input class="col col-lg-3" type="text" id="name" placeholder="Jeremy" required>
+    <input class="col col-lg-3" type="text" id="last-name" placeholder="Last Name" required>
+        
+    <div class="row justify-content-md-center">
+    <input class="col col-lg-6" type="email" id="mail" placeholder="Email Address" required>
+    </div>
+    <div class="row justify-content-md-center">
+    <textarea class="col col-lg-6" placeholder="Write your message here" required></textarea>
+</div>
 </form>
+
 </footer>
 </body>
 </html>
